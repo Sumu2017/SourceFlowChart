@@ -1,1 +1,444 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T06:35:18.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.0" etag="45U6Loz75_RUuEiLbdCG" type="github"><diagram id="o7Gksoq6Hv8XKZopluwq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-18T06:21:47.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="oqe1YLRj0DIs5Qv2qqRh" version="20.4.0" type="github">
+  <diagram id="o7Gksoq6Hv8XKZopluwq" name="Page-1">
+    <mxGraphModel dx="3776" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-41" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioHwDevice&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="-230" width="100" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-41">
+          <mxGeometry x="45" y="140" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-45" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamOut&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outputStream&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamOut&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-41" target="TJTJ5Se_-URnrDwOAVDu-43">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="180" as="sourcePoint" />
+            <mxPoint x="130" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-46" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outputStream&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #61afef;&quot;&gt;open&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;handle&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="212" as="sourcePoint" />
+            <mxPoint x="254.5" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-41">
+          <mxGeometry x="45" y="950" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-30" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalHidl&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-599" y="-684" width="100" height="1844" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry x="45" y="734" width="10" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-55" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;IStreamOut&lt;/span&gt;&amp;gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-30" source="TJTJ5Se_-URnrDwOAVDu-52">
+          <mxGeometry x="-0.0018" relative="1" as="geometry">
+            <mxPoint x="129" y="854" as="sourcePoint" />
+            <mxPoint x="49" y="854" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry x="45" y="1474" width="10" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-82" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;inStream&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamInHalHidl&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="49" y="1694" as="sourcePoint" />
+            <mxPoint x="496" y="1694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-1" value="service.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="-1080" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-1">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-5" value="main()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-4" parent="TJTJ5Se_-URnrDwOAVDu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-7" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;ECNRhidl&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;ecnr&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;get&lt;/span&gt;())&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-1" target="TJTJ5Se_-URnrDwOAVDu-3">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="130" as="sourcePoint" />
+            <mxPoint x="110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-2" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactory&lt;/span&gt;&lt;span style=&quot;color: rgb(229, 192, 123);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;IDevicesFactory.hal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="-1080" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-2">
+          <mxGeometry x="65" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-11" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;registerAsService&lt;/span&gt;()&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-10" parent="TJTJ5Se_-URnrDwOAVDu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-3" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;ECNRhidl:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;IECNRhidl.hal&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-1080" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-3">
+          <mxGeometry x="40" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-13" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;registerAsService&lt;/span&gt;()&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-12" parent="TJTJ5Se_-URnrDwOAVDu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-6" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactory&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;ecnr&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;get&lt;/span&gt;())&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-1" target="TJTJ5Se_-URnrDwOAVDu-2">
+          <mxGeometry x="0.5786" width="60" relative="1" as="geometry">
+            <mxPoint x="-1560" y="-980" as="sourcePoint" />
+            <mxPoint x="-1500" y="-980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1500" y="-990" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-14" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1599" y="-684" width="100" height="1874" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-16" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mDevicesFactoryHal&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactoryHalInterface&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;create&lt;/span&gt;();&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="81" as="sourcePoint" />
+            <mxPoint x="244.5" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-17" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mDevicesFactoryHal&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openDevice&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;name&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;dev&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="137" as="sourcePoint" />
+            <mxPoint x="244.5" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="40" y="361" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-32" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117);&quot;&gt;mAudioHwDevs&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(97, 175, 239);&quot;&gt;add&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117);&quot;&gt;handle&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(198, 120, 221);&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(229, 192, 123);&quot;&gt;AudioHwDevice&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117);&quot;&gt;handle&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117); font-style: italic;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117);&quot;&gt;dev&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52); color: rgb(224, 108, 117);&quot;&gt;flags&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; text-align: center; background-color: rgb(40, 44, 52);&quot;&gt;));&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-31" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="341" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="50" y="532" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-40" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioHwDevice&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outHwDev&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;findSuitableHwDev_l&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;module&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;);&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-39" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="-1" y="-140" relative="1" as="geometry">
+            <mxPoint x="55" y="512" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="512" />
+            </Array>
+            <mxPoint x="-136" y="-108" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-42" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;outHwDev&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openOutputStream&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outputStream&lt;/span&gt;,&lt;span style=&quot;color: rgb(198, 120, 221);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;output&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;flags&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;address&lt;/span&gt;.&lt;span style=&quot;color: rgb(97, 175, 239);&quot;&gt;string&lt;/span&gt;());&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14" target="TJTJ5Se_-URnrDwOAVDu-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="49" y="604" as="sourcePoint" />
+            <mxPoint x="129" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-61" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;thread&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;MixerThread&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;outputStream&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mSystemReady&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14" target="TJTJ5Se_-URnrDwOAVDu-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="49" y="1064" as="sourcePoint" />
+            <mxPoint x="129" y="1064" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="45" y="1124" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-63" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mPlaybackThreads&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;add&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;thread&lt;/span&gt;);&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-62" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1104" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="40" y="1374" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-68" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioHwDevice&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;inHwDev&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;findSuitableHwDev_l&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;module&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;);&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-67" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="-1" y="136" relative="1" as="geometry">
+            <mxPoint x="45" y="1354" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="1354" />
+            </Array>
+            <mxPoint x="-136" y="126" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-70" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalInterface&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;inHwHal&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;inHwDev&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #61afef;&quot;&gt;hwDevice&lt;/span&gt;();&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14" target="TJTJ5Se_-URnrDwOAVDu-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="49" y="1444" as="sourcePoint" />
+            <mxPoint x="129" y="1444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-87" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamIn&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;inputStream&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamIn&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;inHwDev&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;inStream&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="49" y="1748" as="sourcePoint" />
+            <mxPoint x="508.5" y="1748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry x="45" y="1834" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-92" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mRecordThreads&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;add&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;thread&lt;/span&gt;);&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;" edge="1" target="TJTJ5Se_-URnrDwOAVDu-91" parent="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1814" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-15" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactoryHalHybrid&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1449" y="-684" width="190" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-19" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mHidlFactory&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactoryHalHidl&lt;/span&gt;())&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="107" as="sourcePoint" />
+            <mxPoint x="334.5" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-18" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DevicesFactoryHalHidl&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1199" y="-684" width="170" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-20" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mHidlFactory&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openDevice&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;name&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;device&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1354.5" y="-520" as="sourcePoint" />
+            <mxPoint x="-1114.5" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-21" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(229, 192, 123);&quot;&gt;DevicesFactory&lt;/span&gt;&lt;span style=&quot;color: rgb(229, 192, 123);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;IDevicesFactory.hal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-959" y="-684" width="120" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-26" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;PrimaryDevice&lt;/span&gt;(mECNR);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-21">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="211" as="sourcePoint" />
+            <mxPoint x="234.5" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-23" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mDevicesFactory&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;IDevicesFactory&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getService&lt;/span&gt;();&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1114.5" y="-553" as="sourcePoint" />
+            <mxPoint x="-899.5" y="-553" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-24" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mDevicesFactory&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openDevice&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1114.5" y="-493" as="sourcePoint" />
+            <mxPoint x="-899.5" y="-493" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-979" y="-493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-25" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;PrimaryDevice&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-779" y="-684" width="110" height="1844" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-51" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;Device&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openOutputStream&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-25" target="TJTJ5Se_-URnrDwOAVDu-75">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="59" y="782" as="sourcePoint" />
+            <mxPoint x="348.5" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-27" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;IDevice&lt;/span&gt;&amp;gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-724.5" y="-453" as="sourcePoint" />
+            <mxPoint x="-1114.5" y="-453" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-859" y="-453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-28" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;device&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalHidl&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1114.5" y="-423" as="sourcePoint" />
+            <mxPoint x="-549.5" y="-423" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-849" y="-423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-29" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalInterface&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;dev&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-549.5" y="-379" as="sourcePoint" />
+            <mxPoint x="-1549.5" y="-379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-37" value="1、检查设备是否可用，并绑定设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1669" y="-735" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-38" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openOutput_l&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_module_handle_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;module&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                            &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_io_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                            &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_config_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                            &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_devices_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                            &lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;String8&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                            &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_output_flags_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="1" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="-1630" y="-190" as="sourcePoint" />
+            <mxPoint x="-1550" y="-190" as="targetPoint" />
+            <mxPoint x="30" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-43" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamOut&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="-230" width="110" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-58" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(229, 192, 123);&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(198, 120, 221);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(229, 192, 123);&quot;&gt;StreamOutHalInterface&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(198, 120, 221);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(224, 108, 117);&quot;&gt;outStream&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#abb2bf&quot;&gt;&amp;nbsp;=&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(198, 120, 221);&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(229, 192, 123);&quot;&gt;StreamOutHalHidl&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; color: rgb(224, 108, 117); font-style: italic;&quot;&gt;result&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;)&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-43" source="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="500" as="sourcePoint" />
+            <mxPoint x="60" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-48" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamOutHalInterface&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;outStream&lt;/span&gt;;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-959" y="-150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-49" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;PrimaryDevice&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openOutputStream&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-549.5" y="58" as="sourcePoint" />
+            <mxPoint x="-724.5" y="58" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-600" y="58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-52" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamOut&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-227" width="100" height="667" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-56" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamOutHalHidl&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-227" width="130" height="667" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-57" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;outStream&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamOutHalHidl&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.64;exitY=0.543;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-54" target="TJTJ5Se_-URnrDwOAVDu-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-550" y="220" as="sourcePoint" />
+            <mxPoint x="-470" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-47" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;hwDev&lt;/span&gt;()&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openOutputStream&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;handle&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;customFlags&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outStream&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1095.5" y="15" as="sourcePoint" />
+            <mxPoint x="-549.5" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-59" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamOut&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;outputStream&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-43" target="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1430" y="230" as="sourcePoint" />
+            <mxPoint x="-1350" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1200" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-60" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;MixerThread&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-227" width="100" height="667" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-64" value="2、绑定设备输出流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1694" y="-345" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-65" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openInput_l&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_module_handle_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;module&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_io_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_config_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_devices_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;String8&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_source_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;source&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                         &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_input_flags_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry x="1" y="14" width="80" relative="1" as="geometry">
+            <mxPoint x="-1630" y="630" as="sourcePoint" />
+            <mxPoint x="-1549.5" y="630" as="targetPoint" />
+            <mxPoint x="9" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-66" value="3、绑定设备输入流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1694" y="449" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-72" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamInHalInterface&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;inStream&lt;/span&gt;;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1694" y="760" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-71" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;inHwHal&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;openInputStream&lt;/span&gt;(&lt;span style=&quot;color: rgb(198, 120, 221);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;input&lt;/span&gt;, &lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;devices&lt;/span&gt;, &lt;span style=&quot;color: rgb(198, 120, 221);&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(224, 108, 117);&quot;&gt;halconfig&lt;/span&gt;, &lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;flags&lt;/span&gt;, &lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;address&lt;/span&gt;.&lt;span style=&quot;color: rgb(97, 175, 239);&quot;&gt;string&lt;/span&gt;(), &lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;source&lt;/span&gt;, &lt;span style=&quot;color: rgb(198, 120, 221);&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(224, 108, 117);&quot;&gt;inStream&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1549.5" y="810" as="sourcePoint" />
+            <mxPoint x="-549.5" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-73" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;PrimaryDevice&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openOutputStream&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-30" target="TJTJ5Se_-URnrDwOAVDu-25">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-660" y="870" as="sourcePoint" />
+            <mxPoint x="-580" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-610" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-74" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;Device&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openInputStream&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-25" target="TJTJ5Se_-URnrDwOAVDu-75">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-730" y="900" as="sourcePoint" />
+            <mxPoint x="-650" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-620" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-75" value=":&lt;span style=&quot;color: rgb(229, 192, 123); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px;&quot;&gt;Device&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-684" width="100" height="1844" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-78" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;IStreamIn &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;streamIn &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;StreamIn&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;, mECNR, &lt;span style=&quot;color: #61afef;&quot;&gt;deviceAddressToHal&lt;/span&gt;(device).&lt;span style=&quot;color: #61afef;&quot;&gt;c_str&lt;/span&gt;());&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="TJTJ5Se_-URnrDwOAVDu-75" target="TJTJ5Se_-URnrDwOAVDu-77">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="1624" as="sourcePoint" />
+            <mxPoint x="130" y="1624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-76" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mDevice&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;Device&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;ecnr&lt;/span&gt;))&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-25" target="TJTJ5Se_-URnrDwOAVDu-75">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-350" y="-520" as="sourcePoint" />
+            <mxPoint x="-270" y="-520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-500" y="-460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-53" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamOut&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #61afef;&quot;&gt;deviceAddressToHal&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;device&lt;/span&gt;).&lt;span style=&quot;color: #61afef;&quot;&gt;c_str&lt;/span&gt;());&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-410.5" y="136" as="sourcePoint" />
+            <mxPoint x="-270.5" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-77" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;StreamIn&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="449" width="100" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-79" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;IStreamIn&lt;/span&gt;&amp;gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;result&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-77" target="TJTJ5Se_-URnrDwOAVDu-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="980" as="sourcePoint" />
+            <mxPoint x="-390" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-460" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-81" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamInHalHidl&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="449" width="115" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-84" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;StreamInHalInterface&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;inStream&lt;/span&gt;;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="TJTJ5Se_-URnrDwOAVDu-30" target="TJTJ5Se_-URnrDwOAVDu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-620" y="1140" as="sourcePoint" />
+            <mxPoint x="-700" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-880" y="1020" />
+              <mxPoint x="-1400" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-85" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioStreamIn&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="449" width="100" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-88" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;RecordThread&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="449" width="100" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="TJTJ5Se_-URnrDwOAVDu-90" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;sp&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;RecordThread&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;&quot;&gt;thread&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;RecordThread&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117);&quot;&gt;inputStream&lt;/span&gt;,&lt;span style=&quot;color: rgb(198, 120, 221);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;input&lt;/span&gt;,&lt;span style=&quot;color: rgb(97, 175, 239);&quot;&gt;primaryOutputDevice_l&lt;/span&gt;(),&lt;span style=&quot;color: rgb(224, 108, 117); font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;span style=&quot;color: rgb(224, 108, 117);&quot;&gt;mSystemReady)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" target="TJTJ5Se_-URnrDwOAVDu-88">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1549.5" y="1100" as="sourcePoint" />
+            <mxPoint x="-103" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-600" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
