@@ -1,1 +1,271 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T02:45:01.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.3" etag="HHXXhEL6F4xpaBGqJom7" type="github"><diagram id="Oo933CJVT8MrKde66N9u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T08:16:39.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="761J5Ypx7Br2JWbePcUf" version="20.5.3" type="github">
+  <diagram id="Oo933CJVT8MrKde66N9u" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-1" value="AudioRecord.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-1">
+          <mxGeometry x="55" y="110" width="10" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-1">
+          <mxGeometry x="60" y="160" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-5" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;getMinBufferSize&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;sampleRateInHz&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;channelConfig&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;audioFormat&lt;/span&gt;)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-1">
+          <mxGeometry x="-1" y="125" relative="1" as="geometry">
+            <mxPoint x="65" y="142" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="142" />
+            </Array>
+            <mxPoint x="70" y="162" as="targetPoint" />
+            <mxPoint x="-125" y="115" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-8" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;android_media_AudioRecord_get_min_buff_size&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="186" as="sourcePoint" />
+            <mxPoint x="259.5" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-3" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;frameCount&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;channelCount&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;audio_bytes_per_sample&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;format&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-1" source="fRS67M3mF1WdNb4mYEt_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="520" as="sourcePoint" />
+            <mxPoint x="70" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-4" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;native_setup&lt;/span&gt;( &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;WeakReference&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecord&lt;/span&gt;&amp;gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;),&lt;/div&gt;&lt;div&gt;                &lt;span style=&quot;color: #e06c75;&quot;&gt;mAudioAttributes&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;sampleRate&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mChannelMask&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mChannelIndexMask&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                &lt;span style=&quot;color: #e06c75;&quot;&gt;mAudioFormat&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mNativeBufferSizeInBytes&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                &lt;span style=&quot;color: #e06c75;&quot;&gt;session&lt;/span&gt;, &lt;span style=&quot;color: #e5c07b;&quot;&gt;ActivityThread&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;currentOpPackageName&lt;/span&gt;(), &lt;span style=&quot;color: #d19a66;&quot;&gt;0&lt;/span&gt; &lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;/*nativeRecordInJavaObj*/&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-1">
+          <mxGeometry x="0.604" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="615" as="sourcePoint" />
+            <mxPoint x="259.5" y="615" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-2" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;AudioRecord&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioAttributes&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;attributes&lt;/span&gt;, &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFormat&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;format&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;bufferSizeInBytes&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;sessionId&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="1" y="200" width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="160" as="sourcePoint" />
+            <mxPoint x="135" y="160" as="targetPoint" />
+            <mxPoint x="200" y="190" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-6" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;android_media_AudioRecord&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="200" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-6">
+          <mxGeometry x="95" y="608" width="10" height="672" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-6">
+          <mxGeometry x="95" y="285" width="10" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-9" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecord&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getMinFrameCount&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e5c07b;&quot;&gt;size_t&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;frameCount&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e5c07b;&quot;&gt;uint32_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;sampleRate&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_format_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;format&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_channel_mask_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;channelMask&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="288" as="sourcePoint" />
+            <mxPoint x="289.5" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-5" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecord&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;String16&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;opPackageNameStr&lt;/span&gt;.&lt;span style=&quot;color: #61afef;&quot;&gt;c_str&lt;/span&gt;()));&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-6" target="fRS67M3mF1WdNb4mYEt_-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="640" as="sourcePoint" />
+            <mxPoint x="180" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-8" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;lpRecorder&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;set&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;paa&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;source&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;sampleRateInHertz&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;format&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;        // word length, PCM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;localChanMask&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;frameCount&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #61afef;&quot;&gt;recorderCallback&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;// callback_t&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;lpCallbackData&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;// void* user&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #d19a66;&quot;&gt;0&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;             // notificationFrames,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #d19a66;&quot;&gt;true&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;          // threadCanCallJava&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;sessionId&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecord&lt;/span&gt;::&lt;span style=&quot;color: #56b6c2;&quot;&gt;TRANSFER_DEFAULT&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;flags&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c678dd;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;1&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;1&lt;/span&gt;,&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;        // default uid, pid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;paa&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="915" as="sourcePoint" />
+            <mxPoint x="299.5" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-7" value="AudioRecord.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="120" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-11" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioSystem&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputBufferSize&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-7" target="fRS67M3mF1WdNb4mYEt_-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-7">
+          <mxGeometry x="55" y="910" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-11" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;mAudioRecordThread&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecordThread&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;threadCanCallJava&lt;/span&gt;);&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-7" target="X1nZtodLmdZYcEy6HQFt-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="920" as="sourcePoint" />
+            <mxPoint x="140" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-7">
+          <mxGeometry x="60" y="960" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-13" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;createRecord_l&lt;/span&gt;(&lt;span style=&quot;color: #d19a66;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt; /*epoch*/&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mOpPackageName&lt;/span&gt;);&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X1nZtodLmdZYcEy6HQFt-12" parent="fRS67M3mF1WdNb4mYEt_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="940" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-14" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;createRecord&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;CreateRecordInput&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                   &lt;span style=&quot;color: #e5c07b;&quot;&gt;CreateRecordOutput&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                   &lt;span style=&quot;color: #e5c07b;&quot;&gt;status_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;status&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="1040" as="sourcePoint" />
+            <mxPoint x="379.5" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-10" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioSystem&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-13" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputBufferSize&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-10" target="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-17" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioPolicyService&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputForAttr&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_attributes_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;attr&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_io_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_session_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;session&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;pid_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;pid&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;uid_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;uid&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;String16&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;opPackageName&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_config_base_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_input_flags_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_port_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;selectedDeviceId&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                             &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_port_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;portId&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-10" target="X1nZtodLmdZYcEy6HQFt-16">
+          <mxGeometry x="0.3496" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1240" as="sourcePoint" />
+            <mxPoint x="140" y="1240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-12" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="120" height="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-15" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalHidl&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputBufferSize&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-12" target="fRS67M3mF1WdNb4mYEt_-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="400" as="sourcePoint" />
+            <mxPoint x="140" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-15" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioSystem&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputForAttr&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;attr&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;inputId&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #e06c75;&quot;&gt;sessionId&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e;font-style: italic;&quot;&gt;                                    // FIXME compare to AudioTrack&lt;/span&gt;&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #e06c75;&quot;&gt;clientPid&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #e06c75;&quot;&gt;clientUid&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;opPackageName&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                      &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;flags&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;output&lt;/span&gt;.&lt;span style=&quot;color: #e06c75;&quot;&gt;selectedDeviceId&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;portId&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1202" as="sourcePoint" />
+            <mxPoint x="-100.5" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry x="55" y="1670" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry x="60" y="1730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-38" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openInput_l&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X1nZtodLmdZYcEy6HQFt-37" parent="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="1710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-14" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;DeviceHalHidl&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="120" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-17" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;PrimaryDevice&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputBufferSize&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="fRS67M3mF1WdNb4mYEt_-14" target="fRS67M3mF1WdNb4mYEt_-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="440" as="sourcePoint" />
+            <mxPoint x="140" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRS67M3mF1WdNb4mYEt_-16" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;PrimaryDevice&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="120" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-2" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;frameCount&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.22;entryY=0.812;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fRS67M3mF1WdNb4mYEt_-16" target="X1nZtodLmdZYcEy6HQFt-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="350" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-9" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioRecordThread&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="40" width="160" height="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-16" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioPolicyService&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="40" width="160" height="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-18" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AptivAudioPolicyManager&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="40" width="160" height="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry x="75" y="1280" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry x="80" y="1340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-24" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;device&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;getDeviceAndMixForInputSource&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;inputSource&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;policyMix&lt;/span&gt;)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X1nZtodLmdZYcEy6HQFt-23" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry x="80" y="1430" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-26" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;getInputForDevice&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;device&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;address&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;session&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;uid&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;inputSource&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                               &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                               &lt;span style=&quot;color: #e06c75;&quot;&gt;policyMix&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X1nZtodLmdZYcEy6HQFt-25" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry x="85" y="1500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-28" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;profile&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;getInputProfile&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;device&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                  &lt;span style=&quot;color: #e06c75;&quot;&gt;profileSamplingRate&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;profileFormat&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;profileChannelMask&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                  &lt;span style=&quot;color: #e06c75;&quot;&gt;profileFlags&lt;/span&gt;);//找到符合的设备&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X1nZtodLmdZYcEy6HQFt-27" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-30" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioSession&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;session&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;inputSource&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;format&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;&quot;&gt;samplingRate&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;channel_mask&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                                     &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;uid&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;&quot;&gt;isSoundTrigger&lt;/span&gt;,&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;policyMix&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mpClientInterface&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="1573" as="sourcePoint" />
+            <mxPoint x="259.5" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-21" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioPolicyManager&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;getInputForAttr&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="X1nZtodLmdZYcEy6HQFt-16" target="X1nZtodLmdZYcEy6HQFt-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1620" y="1330" as="sourcePoint" />
+            <mxPoint x="1700" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1690" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-29" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioSession&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="40" width="120" height="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-31" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioInputDescriptor&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="40" width="160" height="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-33" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;inputDesc&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioInputDescriptor&lt;/span&gt;(&lt;span style=&quot;color: #e06c75;&quot;&gt;profile&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;mpClientInterface&lt;/span&gt;)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1759.5" y="1640" as="sourcePoint" />
+            <mxPoint x="2119.5" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-34" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;inputDesc&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;open&lt;/span&gt;(&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;lConfig&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;device&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #e06c75;&quot;&gt;halInputSource&lt;/span&gt;, &lt;span style=&quot;color: #e06c75;&quot;&gt;profileFlags&lt;/span&gt;, &lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;input&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.749;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1770" y="1683.7199999999998" as="sourcePoint" />
+            <mxPoint x="2119.5" y="1683.7199999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1nZtodLmdZYcEy6HQFt-35" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;AudioFlinger&lt;/span&gt;::&lt;span style=&quot;color: #61afef;&quot;&gt;openInput&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_module_handle_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;module&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_io_handle_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;input&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_config_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;config&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_devices_t&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;devices&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #c678dd;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;String8&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;address&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_source_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;source&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;                                          &lt;span style=&quot;color: #e5c07b;&quot;&gt;audio_input_flags_t&lt;/span&gt; &lt;span style=&quot;color: #e06c75;font-style: italic;&quot;&gt;flags&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="X1nZtodLmdZYcEy6HQFt-31" target="fRS67M3mF1WdNb4mYEt_-12">
+          <mxGeometry x="0.3484" width="80" relative="1" as="geometry">
+            <mxPoint x="1410" y="1730" as="sourcePoint" />
+            <mxPoint x="1490" y="1730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1720" y="1720" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
